@@ -20,10 +20,10 @@ class Config(object):
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", )
+    STRING_SESSION = os.environ.get("STRING_SESSION", 1BVtsOH4BuyyeS2pPcxgM6h4YxGE_EucvgXeFk11Es6CUDz_5_nlAueWK4OvkkrPd_raSRdySUJYzrJMWNXf8KCiXhLOAZ0A-FL7_RNhjZ9bE1W2fZ9Ow6thBF7dQCd6zsMbLdZnK5LB16KvUGMQLfMiyAOwKuBXNQW45gX_212izxXgT53CTKOIetELwX1bkHBizltwdQmX1zuneNJ2rkdnb_1lv5nDp9Iw_uPphihhHFSNx4nlNJsv8ZwwNSczbogFATp19OwTfJtygCIQpk9AGgzXZTlrs7MmV0z6Zyea6qnywzgUcw47MlA-hAZj0CROi2MwonFjrFfXPFAZnWEwtH0RDais=)
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
-        "TG_BOT_TOKEN_BF_HER", None
+        "TG_BOT_TOKEN_BF_HER", 1945701686:AAFeMP-IWmIiyCx6h5iBB4hXT0EZNjn6_1s
     )
     TG_BOT_USERNAME = None
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
